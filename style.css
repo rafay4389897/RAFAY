@@ -1,0 +1,34 @@
+:root{
+    --orange:#0d6efd;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.orange{
+    color: var(--orange) !important;
+}
+.orangeh{
+    transition: all 0.2s;
+}
+.orangeh:hover{
+color: var(--orange) !important;
+cursor: pointer;
+}
+.mynav{
+    z-index: 99;
+}
+ 
+.blogdetailimg{
+    min-height: 80vh;
+    background-image: url('imgs/blogdetailimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.mbcimg{
+    border-radius: 10px;
+}
+.myborderl{
+    border-left: 1px solid rgb(221, 220, 214);
+}
